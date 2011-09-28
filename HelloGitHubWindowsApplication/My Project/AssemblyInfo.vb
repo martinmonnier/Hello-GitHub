@@ -9,7 +9,7 @@ Imports System.Runtime.InteropServices
 ' Die Werte der Assemblyattribute überprüfen
 
 <Assembly: AssemblyTitle("HelloGitHubWindowsApplication")> 
-<Assembly: AssemblyDescription("")> 
+<Assembly: AssemblyDescription("My first Git base VS based project.")> 
 <Assembly: AssemblyCompany("Microsoft")> 
 <Assembly: AssemblyProduct("HelloGitHubWindowsApplication")> 
 <Assembly: AssemblyCopyright("Copyright © Microsoft 2011")> 
