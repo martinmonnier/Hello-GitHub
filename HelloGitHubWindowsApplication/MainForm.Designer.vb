@@ -24,6 +24,7 @@ Partial Class MainForm
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.CloseButton = New System.Windows.Forms.Button()
+        Me.InfoButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -44,11 +45,21 @@ Partial Class MainForm
         Me.CloseButton.Text = "Close"
         Me.CloseButton.UseVisualStyleBackColor = True
         '
+        'InfoButton
+        '
+        Me.InfoButton.Location = New System.Drawing.Point(388, 12)
+        Me.InfoButton.Name = "InfoButton"
+        Me.InfoButton.Size = New System.Drawing.Size(75, 23)
+        Me.InfoButton.TabIndex = 2
+        Me.InfoButton.Text = "Info Dialog"
+        Me.InfoButton.UseVisualStyleBackColor = True
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(475, 286)
+        Me.Controls.Add(Me.InfoButton)
         Me.Controls.Add(Me.CloseButton)
         Me.Controls.Add(Me.Label1)
         Me.Name = "MainForm"
@@ -59,5 +70,6 @@ Partial Class MainForm
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents CloseButton As System.Windows.Forms.Button
+    Friend WithEvents InfoButton As System.Windows.Forms.Button
 
 End Class
