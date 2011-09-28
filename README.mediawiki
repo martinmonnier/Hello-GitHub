@@ -1,0 +1,7 @@
+==Hello GitHub - A Playground with Visual Studio==
+This is just a typical hello world scenario in order to get in touch with git and github. Currently this project based upon visual studio 2010. 
+===IDE Visual Studio 2010 and Git Integration===
+Currently I am using [http://code.google.com/p/gitextensions/ Git Extension] and [http://code.google.com/p/tortoisegit/ TortoiseGit]. 
+Unfortunatly the [http://gitscc.codeplex.com/ Git Source Control Provider] does not work.
+===More coming soon===
+Hello World ;-)
